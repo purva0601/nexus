@@ -22,11 +22,10 @@
   </modules>
 
   <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/multi-module-site</url>
-    </site>
+    	<snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://192.168.56.103:8081/repository/maven-snapshots/</url>
+   </snapshotRepository>
   </distributionManagement>
 
   <build>
