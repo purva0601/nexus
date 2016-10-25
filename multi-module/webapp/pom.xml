@@ -45,5 +45,13 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
+  
+  
+    <distributionManagement>
+    	<snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://192.168.56.103:8081/repository/maven-snapshots/</url>
+   </snapshotRepository>
+  </distributionManagement>
 
 </project>
