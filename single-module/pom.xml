@@ -22,17 +22,13 @@
       <name>Test Project Site</name>
       <url>file:///tmp/single-module-site</url>
     </site>
-  </distributionManagement>
-  
-  
-  <distributionManagement>
-   <snapshotRepository>
+	<snapshotRepository>
       <id>nexus-snapshots</id>
       <url>http://192.168.56.103:8081/repository/maven-releases/</url>
    </snapshotRepository>
-</distributionManagement>
-
-  <build>
+  </distributionManagement>
+  
+   <build>
     <finalName>${project.artifactId}</finalName>
 
     <plugins>
