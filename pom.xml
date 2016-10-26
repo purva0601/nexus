@@ -17,6 +17,13 @@
   
   
   <distributionManagement>
+
+<repository>
+        <id>nexus-release</id>
+        <name>RepositoryProxyRel</name>
+        <url>http://192.168.56.103:8081/repository/maven-releases/</url>
+    </repository>
+
     	<snapshotRepository>
       <id>nexus-snapshots</id>
       <url>http://192.168.56.103:8081/repository/maven-snapshots/</url>
