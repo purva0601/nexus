@@ -16,17 +16,6 @@
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
 
-  <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/single-module-site</url>
-    </site>
-	<snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://192.168.56.103:8081/repository/maven-releases/</url>
-   </snapshotRepository>
-  </distributionManagement>
   
    <build>
     <finalName>${project.artifactId}</finalName>
